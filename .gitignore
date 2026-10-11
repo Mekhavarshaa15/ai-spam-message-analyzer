@@ -1,0 +1,16 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local training data and generated model artifacts
+data/SMSSpamCollection.tsv
+models/*.joblib
+
+# Streamlit local settings and common editor/OS files
+.streamlit/secrets.toml
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
